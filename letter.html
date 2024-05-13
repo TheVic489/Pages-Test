@@ -4,46 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>untoldcoding</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=VT323"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="textCont"></div>
-    <div class="song">
-      <div class="title">Tap to Play Sound</div>
-      <div class="pause" onclick="togglePlay()">🔇</div>
-      <div class="player">
-        <audio
-          class="audio"
-          src="song.mp3"
-          autoplay
-          type="audio"
-          loop=""
-        ></audio>
+    <div id="carta" class="carta">
+      <div class="encabezado">
+        <h1>¡Feliz Primer Aniversario!</h1>
       </div>
+      <div class="contenido">
+        <p>
+          Hola mi amor, hoy se cumple un año desde que comenzamos a salir y
+          quiero decirte que ha sido el mejor año de mi vida. Gracias por
+          hacerme tan feliz, por ser mi compañera, mi amiga, mi confidente y
+          mi amor. Gracias por estar siempre a mi lado, por apoyarme, por
+          cuidarme y por quererme tal y como soy. 
+        </p>
+        <p>
+          Gracias por ser la persona
+          más maravillosa del mundo y por hacerme sentir tan especial. Te amo
+          con todo mi corazón y deseo que este sea el primero de muchos
+          aniversarios juntos. ¡Feliz primer aniversario, mi amor!
+        </p>
+        <p>
+          Con todo mi amor ,
+        </p>
+        <p>Victor &#10084</p>
+                
     </div>
-    <footer>
-      <a>Victor</a>
+    
+  </div>
+    </div>
+    <footer >
+      <a href="index.html">Inicio</a>
     </footer>
-    <script src="untoldcoding.js"></script>
-    <script>
-      var pause = document.querySelector(".pause");
-      var audio = document.querySelector(".audio");
-
-      function togglePlay() {
-        if (audio.paused) {
-          audio.play();
-          pause.innerHTML = "🔇";
-        } else {
-          audio.pause();
-          pause.innerHTML = "🔊";
-          pause.style.color = " #848484";
-        }
-      }
-    </script>
-    <script src="new.js"></script>
+    <script src="./script.js" ></script>
   </body>
+  <!-- Add js  -->
 </html>

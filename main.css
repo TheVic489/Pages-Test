@@ -1,11 +1,14 @@
+
+
 body {
     margin: 70px; 
     padding: 0; 
-    height 100vh; 
+    height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ffc765;
+    text-wrap: pretty;
   }
   
   #card {
@@ -225,10 +228,9 @@ body {
 
   .text{
     position: absolute;
-    bottom: 16%;
+    bottom: 0;
     margin: 10px;
-
-    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   p{
     font-size: 25px;
