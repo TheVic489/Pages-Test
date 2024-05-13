@@ -18,23 +18,27 @@ body {
 }
 
 .carta {
-  font-size: 150%;
+  font-size: 110%;
   margin-top: 10%;
   margin-left: 5px;
   margin-right: 5px;
-  padding: 30px 40px;
+  padding: 10px 40px;
   background-color: #fbfbfb;
+  background-image: url('bg-carta.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  background-color: #ffffffef;
   border-radius: 10px;
-  width: 60%;
+  width: 50%;
   height: 80%;
   background-color: #fff;
-
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  /* user-select: none; */
 }
 
+
 .carta h1 {
-  font-size: 2em;
+  font-size: 1.4em;
   margin-bottom: 20px;
   text-align: center;
 
