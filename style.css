@@ -1,6 +1,6 @@
-m:root {
+:root {
   --theme-color: #285685;
-  --font-color: #ffc765;
+  --font-color: #818181;
   --shade1: rgba(242, 38, 19, 0.5);
   --shade2: rgba(0, 255, 255, 0.5);
 }
